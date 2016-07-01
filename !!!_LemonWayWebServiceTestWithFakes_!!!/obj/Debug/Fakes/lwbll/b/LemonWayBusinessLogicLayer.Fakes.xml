@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LemonWayBusinessLogicLayer.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Fakes.ShimFibonacciCompletedEventArgs">
+            <summary>Type shim de FibonacciCompletedEventArgs</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimFibonacciCompletedEventArgs.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimFibonacciCompletedEventArgs.#ctor(FibonacciCompletedEventArgs)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimFibonacciCompletedEventArgs.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimFibonacciCompletedEventArgs.AllInstances.ResultGet">
+            <summary>Définit le shim de FibonacciCompletedEventArgs.get_Result()</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimFibonacciCompletedEventArgs.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimFibonacciCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimFibonacciCompletedEventArgs.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimFibonacciCompletedEventArgs.ConstructorObjectArrayExceptionBooleanObject">
+            <summary>Définit le shim de FibonacciCompletedEventArgs.FibonacciCompletedEventArgs(Object[] results, Exception exception, Boolean cancelled, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimFibonacciCompletedEventArgs.ResultGet">
+            <summary>Définit le shim de FibonacciCompletedEventArgs.get_Result()</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimLemonWayWebServiceProxy">
+            <summary>Type shim de LemonWayWebServiceProxy</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.#ctor(LemonWayWebServiceProxy)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.BeginFibonacciInt32AsyncCallbackObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.BeginFibonacci(Int32 n, AsyncCallback callback, Object asyncState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.BeginXmlToJsonStringAsyncCallbackObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.BeginXmlToJson(String xml, AsyncCallback callback, Object asyncState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.CancelAsyncObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.CancelAsync(Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.EndFibonacciIAsyncResult">
+            <summary>Définit le shim de LemonWayWebServiceProxy.EndFibonacci(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.EndXmlToJsonIAsyncResult">
+            <summary>Définit le shim de LemonWayWebServiceProxy.EndXmlToJson(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.FibonacciAsyncInt32">
+            <summary>Définit le shim de LemonWayWebServiceProxy.FibonacciAsync(Int32 n)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.FibonacciAsyncInt32Object">
+            <summary>Définit le shim de LemonWayWebServiceProxy.FibonacciAsync(Int32 n, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.FibonacciCompletedAddFibonacciCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.add_FibonacciCompleted(FibonacciCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.FibonacciCompletedRemoveFibonacciCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.remove_FibonacciCompleted(FibonacciCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.FibonacciInt32">
+            <summary>Définit le shim de LemonWayWebServiceProxy.Fibonacci(Int32 n)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.OnFibonacciOperationCompletedObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.OnFibonacciOperationCompleted(Object arg)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.OnXmlToJsonOperationCompletedObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.OnXmlToJsonOperationCompleted(Object arg)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.XmlToJsonAsyncString">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJsonAsync(String xml)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.XmlToJsonAsyncStringObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJsonAsync(String xml, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.XmlToJsonCompletedAddXmlToJsonCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.add_XmlToJsonCompleted(XmlToJsonCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.XmlToJsonCompletedRemoveXmlToJsonCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.remove_XmlToJsonCompleted(XmlToJsonCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.AllInstances.XmlToJsonString">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJson(String xml)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.BeginFibonacciInt32AsyncCallbackObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.BeginFibonacci(Int32 n, AsyncCallback callback, Object asyncState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.BeginXmlToJsonStringAsyncCallbackObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.BeginXmlToJson(String xml, AsyncCallback callback, Object asyncState)</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.Bind(System.ComponentModel.IComponent)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimLemonWayWebServiceProxy.Bind(System.IDisposable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.CancelAsyncObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.CancelAsync(Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.Constructor">
+            <summary>Définit le shim de LemonWayWebServiceProxy.LemonWayWebServiceProxy()</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.EndFibonacciIAsyncResult">
+            <summary>Définit le shim de LemonWayWebServiceProxy.EndFibonacci(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.EndXmlToJsonIAsyncResult">
+            <summary>Définit le shim de LemonWayWebServiceProxy.EndXmlToJson(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.FibonacciAsyncInt32">
+            <summary>Définit le shim de LemonWayWebServiceProxy.FibonacciAsync(Int32 n)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.FibonacciAsyncInt32Object">
+            <summary>Définit le shim de LemonWayWebServiceProxy.FibonacciAsync(Int32 n, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.FibonacciCompletedAddFibonacciCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.add_FibonacciCompleted(FibonacciCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.FibonacciCompletedRemoveFibonacciCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.remove_FibonacciCompleted(FibonacciCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.FibonacciInt32">
+            <summary>Définit le shim de LemonWayWebServiceProxy.Fibonacci(Int32 n)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.OnFibonacciOperationCompletedObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.OnFibonacciOperationCompleted(Object arg)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.OnXmlToJsonOperationCompletedObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.OnXmlToJsonOperationCompleted(Object arg)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.XmlToJsonAsyncString">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJsonAsync(String xml)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.XmlToJsonAsyncStringObject">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJsonAsync(String xml, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.XmlToJsonCompletedAddXmlToJsonCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.add_XmlToJsonCompleted(XmlToJsonCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.XmlToJsonCompletedRemoveXmlToJsonCompletedEventHandler">
+            <summary>Définit le shim de LemonWayWebServiceProxy.remove_XmlToJsonCompleted(XmlToJsonCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimLemonWayWebServiceProxy.XmlToJsonString">
+            <summary>Définit le shim de LemonWayWebServiceProxy.XmlToJson(String xml)</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimXmlToJsonCompletedEventArgs">
+            <summary>Type shim de XmlToJsonCompletedEventArgs</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimXmlToJsonCompletedEventArgs.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimXmlToJsonCompletedEventArgs.#ctor(XmlToJsonCompletedEventArgs)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimXmlToJsonCompletedEventArgs.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimXmlToJsonCompletedEventArgs.AllInstances.ResultGet">
+            <summary>Définit le shim de XmlToJsonCompletedEventArgs.get_Result()</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimXmlToJsonCompletedEventArgs.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimXmlToJsonCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimXmlToJsonCompletedEventArgs.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimXmlToJsonCompletedEventArgs.ConstructorObjectArrayExceptionBooleanObject">
+            <summary>Définit le shim de XmlToJsonCompletedEventArgs.XmlToJsonCompletedEventArgs(Object[] results, Exception exception, Boolean cancelled, Object userState)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimXmlToJsonCompletedEventArgs.ResultGet">
+            <summary>Définit le shim de XmlToJsonCompletedEventArgs.get_Result()</summary>
+        </member>
+        <member name="T:Global.Fakes.StubLemonWayWebServiceProxy">
+            <summary>Type stub de LemonWayWebServiceProxy</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.Abort">
+            <summary>Définit le stub de WebClientProtocol.Abort()</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.Abort01">
+            <summary>Définit le stub de WebClientProtocol.Abort()</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.AttachBackingFieldToSite">
+            <summary>Attache les délégués pour émuler StubLemonWayWebServiceProxy.Site en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Global.Fakes.StubLemonWayWebServiceProxy.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Global.Fakes.StubLemonWayWebServiceProxy.CanRaiseEvents">
+            <summary>Définit le stub de Component.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.CanRaiseEventsGet">
+            <summary>Définit le stub de Component.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.Dispose(System.Boolean)">
+            <summary>Définit le stub de Component.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.DisposeBoolean">
+            <summary>Définit le stub de Component.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetReaderForMessage(System.Web.Services.Protocols.SoapClientMessage,System.Int32)">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetReaderForMessage(SoapClientMessage message, Int32 bufferSize)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetReaderForMessageSoapClientMessageInt32">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetReaderForMessage(SoapClientMessage message, Int32 bufferSize)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetService(System.Type)">
+            <summary>Définit le stub de Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetServiceType">
+            <summary>Définit le stub de Component.GetService(Type service)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetWebRequest(System.Uri)">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetWebRequest(Uri uri)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetWebRequestUri">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetWebRequest(Uri uri)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetWebResponse(System.Net.WebRequest)">
+            <summary>Définit le stub de HttpWebClientProtocol.GetWebResponse(WebRequest request)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetWebResponse(System.Net.WebRequest,System.IAsyncResult)">
+            <summary>Définit le stub de HttpWebClientProtocol.GetWebResponse(WebRequest request, IAsyncResult result)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetWebResponseWebRequest">
+            <summary>Définit le stub de HttpWebClientProtocol.GetWebResponse(WebRequest request)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetWebResponseWebRequestIAsyncResult">
+            <summary>Définit le stub de HttpWebClientProtocol.GetWebResponse(WebRequest request, IAsyncResult result)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.GetWriterForMessage(System.Web.Services.Protocols.SoapClientMessage,System.Int32)">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetWriterForMessage(SoapClientMessage message, Int32 bufferSize)</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.GetWriterForMessageSoapClientMessageInt32">
+            <summary>Définit le stub de SoapHttpClientProtocol.GetWriterForMessage(SoapClientMessage message, Int32 bufferSize)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubLemonWayWebServiceProxy</summary>
+        </member>
+        <member name="P:Global.Fakes.StubLemonWayWebServiceProxy.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Global.Fakes.StubLemonWayWebServiceProxy.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Global.Fakes.StubLemonWayWebServiceProxy.Site">
+            <summary>Définit le stub de Component.get_Site()</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.SiteGet">
+            <summary>Définit le stub de Component.get_Site()</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.SiteSetISite">
+            <summary>Définit le stub de Component.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:Global.Fakes.StubLemonWayWebServiceProxy.ToString">
+            <summary>Définit le stub de Component.ToString()</summary>
+        </member>
+        <member name="F:Global.Fakes.StubLemonWayWebServiceProxy.ToString01">
+            <summary>Définit le stub de Component.ToString()</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService">
+            <summary>Type shim de LemonWayBusinessLogicLayer.FibonacciService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.#ctor(LemonWayBusinessLogicLayer.FibonacciService)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.AllInstances.LemonWayBusinessLogicLayerIFibonacciServicegetFibonacciInt32">
+            <summary>Définit le shim de FibonacciService.LemonWayBusinessLogicLayer.IFibonacciService.getFibonacci(Int32 n)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.Bind(LemonWayBusinessLogicLayer.IFibonacciService)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.Constructor">
+            <summary>Définit le shim de FibonacciService.FibonacciService()</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimFibonacciService.LemonWayBusinessLogicLayerIFibonacciServicegetFibonacciInt32">
+            <summary>Définit le shim de FibonacciService.LemonWayBusinessLogicLayer.IFibonacciService.getFibonacci(Int32 n)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimHelperService">
+            <summary>Type shim de LemonWayBusinessLogicLayer.HelperService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.GetOnePairJsonString">
+            <summary>Définit le shim de HelperService.GetOnePairJson(String value)</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.GetOnePairJsonStringString">
+            <summary>Définit le shim de HelperService.GetOnePairJson(String name, String value)</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimHelperService.IsValidJsonString">
+            <summary>Définit le shim de HelperService.IsValidJson(String strInput)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService">
+            <summary>Type shim de LemonWayBusinessLogicLayer.XmlFileService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.#ctor(LemonWayBusinessLogicLayer.XmlFileService)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.AllInstances.getXmlFromFilePathString">
+            <summary>Définit le shim de XmlFileService.getXmlFromFilePath(String path)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.Bind(LemonWayBusinessLogicLayer.IXmlFileService)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.Constructor">
+            <summary>Définit le shim de XmlFileService.XmlFileService()</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlFileService.getXmlFromFilePathString">
+            <summary>Définit le shim de XmlFileService.getXmlFromFilePath(String path)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService">
+            <summary>Type shim de LemonWayBusinessLogicLayer.XmlToJsonService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.#ctor(LemonWayBusinessLogicLayer.XmlToJsonService)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.AllInstances.GetXmlIXmlFileService">
+            <summary>Définit le shim de XmlToJsonService.GetXml(IXmlFileService xfs)</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.AllInstances.convertXmlToJsonString">
+            <summary>Définit le shim de XmlToJsonService.convertXmlToJson(String xml)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.Bind(LemonWayBusinessLogicLayer.IXmlToJsonService)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.Constructor">
+            <summary>Définit le shim de XmlToJsonService.XmlToJsonService()</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.GetXmlIXmlFileService">
+            <summary>Définit le shim de XmlToJsonService.GetXml(IXmlFileService xfs)</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.StaticConstructor">
+            <summary>Définit le shim de XmlToJsonService.XmlToJsonService()</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.ShimXmlToJsonService.convertXmlToJsonString">
+            <summary>Définit le shim de XmlToJsonService.convertXmlToJson(String xml)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.FibonacciService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubFibonacciService</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubFibonacciService.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubIFibonacciService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.IFibonacciService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIFibonacciService.#ctor">
+            <summary>Initialise une nouvelle instance de type StubIFibonacciService</summary>
+        </member>
+        <member name="F:LemonWayBusinessLogicLayer.Fakes.StubIFibonacciService.GetFibonacciInt32">
+            <summary>Définit le stub de IFibonacciService.getFibonacci(Int32 n)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIFibonacciService.LemonWayBusinessLogicLayer#IFibonacciService#getFibonacci(System.Int32)">
+            <summary>Définit le stub de IFibonacciService.getFibonacci(Int32 n)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubIXmlFileService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.IXmlFileService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIXmlFileService.#ctor">
+            <summary>Initialise une nouvelle instance de type StubIXmlFileService</summary>
+        </member>
+        <member name="F:LemonWayBusinessLogicLayer.Fakes.StubIXmlFileService.GetXmlFromFilePathString">
+            <summary>Définit le stub de IXmlFileService.getXmlFromFilePath(String path)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIXmlFileService.LemonWayBusinessLogicLayer#IXmlFileService#getXmlFromFilePath(System.String)">
+            <summary>Définit le stub de IXmlFileService.getXmlFromFilePath(String path)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubIXmlToJsonService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.IXmlToJsonService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIXmlToJsonService.#ctor">
+            <summary>Initialise une nouvelle instance de type StubIXmlToJsonService</summary>
+        </member>
+        <member name="F:LemonWayBusinessLogicLayer.Fakes.StubIXmlToJsonService.ConvertXmlToJsonString">
+            <summary>Définit le stub de IXmlToJsonService.convertXmlToJson(String xml)</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubIXmlToJsonService.LemonWayBusinessLogicLayer#IXmlToJsonService#convertXmlToJson(System.String)">
+            <summary>Définit le stub de IXmlToJsonService.convertXmlToJson(String xml)</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.XmlFileService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubXmlFileService</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlFileService.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="T:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService">
+            <summary>Type stub de LemonWayBusinessLogicLayer.XmlToJsonService</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubXmlToJsonService</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:LemonWayBusinessLogicLayer.Fakes.StubXmlToJsonService.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+    </members>
+</doc>

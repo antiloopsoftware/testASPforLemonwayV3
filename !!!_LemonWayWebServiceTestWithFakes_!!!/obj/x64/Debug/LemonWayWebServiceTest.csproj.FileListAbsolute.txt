@@ -1,0 +1,6 @@
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\bin\x64\Debug\LemonWayWebServiceTest.dll.config
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\bin\x64\Debug\LemonWayWebServiceTest.dll
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\bin\x64\Debug\LemonWayWebServiceTest.pdb
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\obj\x64\Debug\LemonWayWebServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\obj\x64\Debug\LemonWayWebServiceTest.dll
+C:\Users\Mister Robo\Documents\My Web Sites\testASPforLemonWay\LemonWayWebServiceTest\obj\x64\Debug\LemonWayWebServiceTest.pdb

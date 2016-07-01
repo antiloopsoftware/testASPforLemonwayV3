@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LemonWayWebService", "LemonWayWebService\", "{728EA3E4-1813-4339-9C73-453117F80BEB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{13d2146e-c796-4f63-a443-aa70abc3628b}|LemonWayBusinessLogicLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_40822"
+		Debug.AspNetCompiler.PhysicalPath = "LemonWayWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_40822\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_40822"
+		Release.AspNetCompiler.PhysicalPath = "LemonWayWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_40822\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "40822"
+		SlnRelativePath = "LemonWayWebService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWayConsoleClient", "LemonWayConsoleClient\LemonWayConsoleClient.csproj", "{716A10C3-B589-4CA7-A5ED-2A48C575D721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonWayBusinessLogicLayer", "LemonWayBusinessLogicLayer\LemonWayBusinessLogicLayer.csproj", "{13D2146E-C796-4F63-A443-AA70ABC3628B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "!!!_LemonWayWebServiceTestWithFakes_!!!", "!!!_LemonWayWebServiceTestWithFakes_!!!\!!!_LemonWayWebServiceTestWithFakes_!!!.csproj", "{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Release|x64.ActiveCfg = Debug|Any CPU
+		{728EA3E4-1813-4339-9C73-453117F80BEB}.Release|x64.Build.0 = Debug|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Debug|x64.Build.0 = Debug|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Release|x64.ActiveCfg = Release|Any CPU
+		{716A10C3-B589-4CA7-A5ED-2A48C575D721}.Release|x64.Build.0 = Release|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Debug|x64.Build.0 = Debug|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Release|x64.ActiveCfg = Release|Any CPU
+		{13D2146E-C796-4F63-A443-AA70ABC3628B}.Release|x64.Build.0 = Release|Any CPU
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Debug|x64.ActiveCfg = Debug|x64
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Debug|x64.Build.0 = Debug|x64
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Release|x64.ActiveCfg = Release|x64
+		{13C82385-0D3F-4FB5-AAE6-30330CA76D2B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
